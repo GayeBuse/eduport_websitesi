@@ -124,77 +124,158 @@
           </div>
 
           <!-- Resim Animasyon Alanı -->
-<!-- Resim ve Teklif Kutusu Alanı -->
-<div class="relative min-h-[800px] mt-20 flex flex-col items-center justify-center z-0">
-  <!-- Soldan gelen resim -->
-  <img
-    id="leftImage"
-    src="./public/sol.jpg"
-    alt="Soldan Gelen Resim"
-    class="absolute w-[890px] h-auto opacity-0 z-0"
-    style="transform: translateX(-100%); transition: all 0.6s ease-out;"
-  />
-  <!-- Sağdan gelen resim -->
-  <img
-    id="rightImage"
-    src="./public/sağ.jpg"
-    alt="Sağdan Gelen Resim"
-    class="absolute w-[255px] h-auto opacity-0 z-10 mt-[120px]"
-    style="transform: translateX(100%); transition: all 0.6s ease-out;"
-  />
+          <!-- Resim ve Teklif Kutusu Alanı -->
+          <div
+            class="relative min-h-[800px] mt-20 flex flex-col items-center justify-center z-0"
+          >
+            <!-- Soldan gelen resim -->
+            <img
+              id="leftImage"
+              src="./public/sol.jpg"
+              alt="Soldan Gelen Resim"
+              class="absolute w-[890px] h-auto opacity-0 z-0"
+              style="
+                transform: translateX(-100%);
+                transition: all 0.6s ease-out;
+              "
+            />
+            <!-- Sağdan gelen resim -->
+            <img
+              id="rightImage"
+              src="./public/sağ.jpg"
+              alt="Sağdan Gelen Resim"
+              class="absolute w-[255px] h-auto opacity-0 z-10 mt-[120px]"
+              style="transform: translateX(100%); transition: all 0.6s ease-out"
+            />
 
-  <!-- Teklif Al Kutusu -->
-  <div class="mt-[400px] z-20"> <!-- margin-top resimlerden sonra gelsin diye -->
-    <div
-      class="bg-[#0140C1] rounded-[32px] w-[1140px] h-[206px] text-white text-center shadow-xl p-8"
-    >
-      <h2 class="text-3xl font-semibold mb-4">Hızlı Teklif Al</h2>
-      <p class="text-blue-100 mb-8 max-w-2xl mx-auto">
-        En iyi üniversitelerin tercih ettiği eduport'u keşfedin - hemen bir demo talep edin!
-      </p>
-      <div class="flex flex-wrap justify-center gap-4 mb-8">
-        <input
-          type="text"
-          placeholder="Adınız Soyadınız"
-          class="px-6 py-3 rounded-full text-gray-800 outline-none flex-1 min-w-64 max-w-xs"
-        />
-        <input
-          type="email"
-          placeholder="E-Posta Adresiniz"
-          class="px-6 py-3 rounded-full text-gray-800 outline-none flex-1 min-w-64 max-w-xs"
-        />
-        <input
-          type="tel"
-          placeholder="Telefon Numaranız"
-          class="px-6 py-3 rounded-full text-gray-800 outline-none flex-1 min-w-64 max-w-xs"
-        />
-        <button
-          class="bg-[#9059E3] text-white px-8 py-4 rounded-full font-medium text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
-        >
-          Teklif Al →
-        </button>
+            <!-- Teklif Al Kutusu -->
+            <div class="mt-[400px] z-20">
+              <!-- margin-top resimlerden sonra gelsin diye -->
+              <div
+                class="bg-[#0140C1] rounded-[32px] w-[1140px] h-[206px] text-white text-center shadow-xl p-8"
+              >
+                <h2 class="text-3xl font-semibold mb-4">Hızlı Teklif Al</h2>
+                <p class="text-blue-100 mb-8 max-w-2xl mx-auto">
+                  En iyi üniversitelerin tercih ettiği eduport'u keşfedin -
+                  hemen bir demo talep edin!
+                </p>
+                <div class="flex flex-wrap justify-center gap-4 mb-8">
+                  <input
+                    type="text"
+                    placeholder="Adınız Soyadınız"
+                    class="px-6 py-3 rounded-full text-gray-800 outline-none flex-1 min-w-64 max-w-xs"
+                  />
+                  <input
+                    type="email"
+                    placeholder="E-Posta Adresiniz"
+                    class="px-6 py-3 rounded-full text-gray-800 outline-none flex-1 min-w-64 max-w-xs"
+                  />
+                  <input
+                    type="tel"
+                    placeholder="Telefon Numaranız"
+                    class="px-6 py-3 rounded-full text-gray-800 outline-none flex-1 min-w-64 max-w-xs"
+                  />
+                  <button
+                    class="bg-[#9059E3] text-white px-8 py-4 rounded-full font-medium text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+                  >
+                    Teklif Al →
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Uygulama Özellikleri Deneyimi Bölümü -->
+          <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-[#0140C1] mb-6">
+              Uygulamadaki Özellikleri <br />Deneyimleyin
+            </h2>
+            <p class="text-lg text-gray-700 max-w-2xl mx-auto mb-10">
+              Eduport'un sunduğu akıllı araçlar, kişiselleştirilmiş içerikler ve
+              etkileşimli çözümlerle akademik dünyada fark yaratın.
+            </p>
+            <button
+              class="bg-[#9059E3] hover:bg-[#7a42d1] text-white px-8 py-4 rounded-full font-medium text-lg transition-transform duration-300 transform hover:scale-105 shadow-md"
+            >
+              Keşfet →
+            </button>
+          </div>
+          <!-- Yapay Zeka Merkezde -->
+          <div class="bg-[#f9fbff] p-6 rounded-lg shadow-sm">
+            <h2 class="text-xl font-bold mb-2">Yapay Zeka Merkezde</h2>
+            <p class="text-sm mb-4">
+              Kişisel ve kurumsal verilerden arama yapan yapay zeka ile tüm
+              bilgilere hızlı ulaşın
+            </p>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1828/1828970.png"
+              alt="AI Icon"
+              class="w-12 h-12 mb-2"
+            />
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/565/565547.png"
+              alt="Soru İşareti"
+              class="w-24 h-auto"
+            />
+          </div>
+
+          <!-- Teknoloji -->
+          <div class="bg-[#f9fbff] p-6 rounded-lg shadow-sm">
+            <h2 class="text-xl font-bold mb-2">Teknoloji</h2>
+            <p class="text-sm mb-4">
+              Modern teknolojiler, özelleştirilebilir ve ölçeklenebilir yapısı
+              ile kurumunuza uygundur
+            </p>
+            <div class="flex flex-wrap gap-4">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+                class="w-10 h-10"
+                alt="React"
+              />
+              <img
+                src="https://avatars.githubusercontent.com/u/67109815?s=280&v=4"
+                class="w-10 h-10"
+                alt="Next.js"
+              />
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/888/888859.png"
+                class="w-10 h-10"
+                alt="Docker"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Meta_Platforms_Inc._logo.svg"
+                class="w-10 h-10"
+                alt="Meta"
+              />
+              <!-- Diğer logoları sen ekleyebilirsin -->
+            </div>
+          </div>
+
+          <!-- Kişiselleştirilmiş Deneyim -->
+          <div class="bg-[#f9fbff] p-6 rounded-lg shadow-sm col-span-1">
+            <h2 class="text-xl font-bold mb-2">Kişiselleştirilmiş Deneyim</h2>
+            <ul class="text-sm space-y-2 mb-4">
+              <li>✅ Kullanıcıya özel içerik gösterimi</li>
+              <li>✅ Yapay Zeka ile kişiselleştirilmiş arama</li>
+              <li>✅ Bildirim yapısı ile anlık bilgilendirmeler</li>
+            </ul>
+            <img
+              src="https://images.unsplash.com/photo-1603415526960-f7e0328b9f67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fHRlY2h8ZW58MHx8fHwxNjkzMzUyMzY1&ixlib=rb-4.0.3&q=80&w=200"
+              alt="User"
+              class="w-32 h-32 rounded-full object-cover"
+            />
+          </div>
+
+          <!-- Tüm Özellikler -->
+          <div
+            class="bg-gradient-to-br from-[#0a47b4] to-[#1e90ff] text-white p-6 rounded-lg shadow-sm flex items-center justify-center"
+          >
+            <a href="#" class="text-lg font-semibold hover:underline"
+              >Tüm Özellikler →</a
+            >
+          </div>
+        </div>
       </div>
     </div>
-  </div>
- 
-</div>
-<!-- Uygulama Özellikleri Deneyimi Bölümü -->
-  <div class="container mx-auto text-center">
-    <h2 class="text-4xl font-bold text-[#0140C1] mb-6">
-      Uygulamadaki Özellikleri <br>Deneyimleyin
-    </h2>
-    <p class="text-lg text-gray-700 max-w-2xl mx-auto mb-10">
-      Eduport'un sunduğu akıllı araçlar, kişiselleştirilmiş içerikler ve
-      etkileşimli çözümlerle akademik dünyada fark yaratın.
-    </p>
-    <button
-      class="bg-[#9059E3] hover:bg-[#7a42d1] text-white px-8 py-4 rounded-full font-medium text-lg transition-transform duration-300 transform hover:scale-105 shadow-md"
-    >
-      Keşfet →
-    </button>
-  </div>
- 
-</div>
 
     <!-- Scroll Animasyon Script -->
     <script>
