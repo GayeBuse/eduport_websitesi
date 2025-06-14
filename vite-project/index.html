@@ -16,87 +16,201 @@
   </head>
   <body class="bg-gray-50">
     <!-- Navbar -->
-    <nav class="bg-white shadow-sm border-b border-gray-100">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between items-center h-16">
-            <div class="flex items-center ">
+    <nav>
+      <div class="bg-white shadow-sm border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex justify-between items-center h-16">
+            <div class="flex items-center">
               <!-- Brand Name -->
               <span
                 class="leading-[33.24px] tracking-[2%] text-[37.99px] font-semibold italic font-gilroy"
                 >eduport</span
               >
             </div>
-          <!-- Navigation Links -->
-          <div
-            class="flex w-[393px] h-[50px] rounded-[64px] p-[4px] gap-[8px] bg-[#F0F4FF] shadow"
-          >
-            <a
-              href="#"
-              class="inline-flex items-center justify-center font-[500] pt-[16px] pr-[20px] pb-[16px] pl-[20px] hover:rounded-[48px] hover:bg-white hover:text-[#0140C1] font-poppins"
-              >Özellikler</a
-            >
-            <a
-              href="#"
-              class="inline-flex items-center justify-center text-[14px] leading-[33.24px] font-[500] font-[Poppins] px-[20px] py-[16px] rounded-[48px] hover:text-[#0140C1] hover:bg-white transition-all duration-150"
-              >Modüller</a
-            >
-            <a
-              href="#"
-              class="inline-flex items-center justify-center text-[14px] leading-[33.24px] font-[500] font-[Poppins] px-[20px] py-[16px] rounded-[48px] hover:text-[#0140C1] hover:bg-white transition-all duration-150"
-              >Nedir?</a
-            >
-            <a
-              href="#"
-              class="inline-flex items-center justify-center text-[14px] leading-[33.24px] font-[500] font-[Poppins] px-[20px] py-[16px] rounded-[48px] hover:text-[#0140C1] hover:bg-white transition-all duration-150"
-              >Blog</a
-            >
-          </div>
-          <!-- Right Section -->
-          <div class="flex justify-between gap-8 relative group ">
-            <div class="relative group inline-block">
-            <!-- Language Selector -->
+            <!-- Navigation Links -->
             <div
-              class="flex items-center w-[48px] h-[48px] rounded-[64px] px-[8px] py-[4px] gap-[6px]"
-              style="font-family: 'Poppins', sans-serif"
-            >
-              <span
-                class="text-[14px] font-medium leading-[33.24px] tracking-[0]"
-              >
-                EN
-              </span>
-              <i class="fas fa-chevron-down text-[14px]"></i>
-            </div>
-            <div  class="absolute left-0 top-full mt-1 min-w-[48px] bg-white border border-gray-200 rounded-md shadow-md hidden group-hover:block z-10"
+              class="flex w-[393px] h-[50px] rounded-[64px] p-[4px] gap-[8px] bg-[#F0F4FF] shadow"
             >
               <a
                 href="#"
-                class="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md"
+                class="inline-flex items-center justify-center font-[500] pt-[16px] pr-[20px] pb-[16px] pl-[20px] rounded-[48px] hover:rounded-[48px] hover:bg-white hover:text-[#0140C1] font-poppins"
+                >Özellikler</a
               >
-                TR
+              <a
+                href="#"
+                class="inline-flex items-center justify-center text-[14px] leading-[33.24px] font-[500] font-[Poppins] px-[20px] py-[16px] rounded-[48px] hover:text-[#0140C1] hover:bg-white transition-all duration-150"
+                >Modüller</a
+              >
+              <a
+                href="#"
+                class="inline-flex items-center justify-center text-[14px] leading-[33.24px] font-[500] font-[Poppins] px-[20px] py-[16px] rounded-[48px] hover:text-[#0140C1] hover:bg-white transition-all duration-150"
+                >Nedir?</a
+              >
+              <a
+                href="#"
+                class="inline-flex items-center justify-center text-[14px] leading-[33.24px] font-[500] font-[Poppins] px-[20px] py-[16px] rounded-[48px] hover:text-[#0140C1] hover:bg-white transition-all duration-150"
+                >Blog</a
+              >
+            </div>
+            <!-- Right Section -->
+            <div class="flex justify-between gap-8 relative group">
+              <div class="relative group inline-block">
+                <!-- Language Selector -->
+                <div
+                  class="flex items-center w-[48px] h-[48px] rounded-[64px] px-[8px] py-[4px] gap-[6px]"
+                  style="font-family: 'Poppins', sans-serif"
+                >
+                  <span
+                    class="text-[14px] font-medium leading-[33.24px] tracking-[0]"
+                    >EN</span
+                  >
+                  <i class="fas fa-chevron-down text-[14px]"></i>
+                </div>
+                <div
+                  class="absolute left-0 top-full mt-1 min-w-[48px] bg-white border border-gray-200 rounded-md shadow-md hidden group-hover:block z-10"
+                >
+                  <a
+                    href="#"
+                    class="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md"
+                    >TR</a
+                  >
+                </div>
+              </div>
+              <!-- Teklif Al Button -->
+              <a
+                href="#"
+                class="flex items-center h-[48px] bg-white border p-[24px] gap-[14px] border-[#0140C1] rounded-[32px]"
+              >
+                <span class="">Teklif Al</span>
+                <i class="fas fa-external-link-alt text-xs"></i>
               </a>
-            </div>
-            </div>
-
-            <!-- Teklif Al Button -->
-            <a href="#" class="flex items-center  h-[48px] gap-2 bg-white  border p-[24px] gap-[14px]border-[#0140C1] rounded-[32px] ">
-              <span class="">Teklif Al</span>
-              <i class="fas fa-external-link-alt text-xs"></i>
-            </a>
-            <!-- Demo Button -->
-            <button
-              class="h-[48px] rounded-[32px] p-[24px] font-medium text-[14px] leading-[33.24px] flex items-center justify-center bg-blue-600 text-white hover:bg-blue-700 transition-colors"
-            >
-              Demo
-            </button>
-          </div>
-        </div>
-      </div>
+              <!-- Demo Button -->
+              <button
+                class="h-[48px] rounded-[32px] p-[24px] font-medium text-[14px] leading-[33.24px] flex items-center justify-center bg-blue-600 text-white hover:bg-blue-700 transition-colors"
+              >
+                Demo
+              </button>
             </div>
           </div>
         </div>
       </div>
     </nav>
-   
+
+    <div>
+      <div class="min-h-screen">
+        <div class="container mx-auto">
+          <!-- Main Title Section -->
+          <div class="text-center mb-16 font-[Poppins]">
+            <div class="flex justify-center items-center mt-12 mb-8">
+              <h1
+                class="text-[52px] leading-[57.2px] font-[600] tracking-[-0.01em] text-center"
+              >
+                <span class="text-[#0140C1]">AI</span> Yapay Zeka Destekli
+                <span class="text-[#0140C1]">Portal</span>
+              </h1>
+            </div>
+            <div
+              class="text-[17px] leading-[29.2px] font-light tracking-normal text-center text-[#969696] mb-[32px]"
+            >
+              Yapay zeka destekli eduport, bir portaldan çok daha fazlası.
+              Kişiselleştirilmiş içerikler, akıllı<br />öneriler ve etkileşimli
+              araçlarla her seviyeden kullanıcının
+            </div>
+            <button
+              class="w-[164.67px] h-[48px] rounded-[32px] gap-[48px] bg-[#0140C1] text-[#FFFFFF]"
+            >
+              Teklif Al →
+            </button>
+          </div>
+
+          <!-- Resim Animasyon Alanı -->
+<!-- Resim ve Teklif Kutusu Alanı -->
+<div class="relative min-h-[800px] mt-20 flex flex-col items-center justify-center z-0">
+  <!-- Soldan gelen resim -->
+  <img
+    id="leftImage"
+    src="./public/sol.jpg"
+    alt="Soldan Gelen Resim"
+    class="absolute w-[890px] h-auto opacity-0 z-0"
+    style="transform: translateX(-100%); transition: all 0.6s ease-out;"
+  />
+  <!-- Sağdan gelen resim -->
+  <img
+    id="rightImage"
+    src="./public/sağ.jpg"
+    alt="Sağdan Gelen Resim"
+    class="absolute w-[255px] h-auto opacity-0 z-10 mt-[120px]"
+    style="transform: translateX(100%); transition: all 0.6s ease-out;"
+  />
+
+  <!-- Teklif Al Kutusu -->
+  <div class="mt-[400px] z-20"> <!-- margin-top resimlerden sonra gelsin diye -->
+    <div
+      class="bg-[#0140C1] rounded-[32px] w-[1140px] h-[206px] text-white text-center shadow-xl p-8"
+    >
+      <h2 class="text-3xl font-semibold mb-4">Hızlı Teklif Al</h2>
+      <p class="text-blue-100 mb-8 max-w-2xl mx-auto">
+        En iyi üniversitelerin tercih ettiği eduport'u keşfedin - hemen bir demo talep edin!
+      </p>
+      <div class="flex flex-wrap justify-center gap-4 mb-8">
+        <input
+          type="text"
+          placeholder="Adınız Soyadınız"
+          class="px-6 py-3 rounded-full text-gray-800 outline-none flex-1 min-w-64 max-w-xs"
+        />
+        <input
+          type="email"
+          placeholder="E-Posta Adresiniz"
+          class="px-6 py-3 rounded-full text-gray-800 outline-none flex-1 min-w-64 max-w-xs"
+        />
+        <input
+          type="tel"
+          placeholder="Telefon Numaranız"
+          class="px-6 py-3 rounded-full text-gray-800 outline-none flex-1 min-w-64 max-w-xs"
+        />
+        <button
+          class="bg-[#9059E3] text-white px-8 py-4 rounded-full font-medium text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+        >
+          Teklif Al →
+        </button>
       </div>
+    </div>
+  </div>
+ 
+</div>
+<!-- Uygulama Özellikleri Deneyimi Bölümü -->
+  <div class="container mx-auto text-center">
+    <h2 class="text-4xl font-bold text-[#0140C1] mb-6">
+      Uygulamadaki Özellikleri <br>Deneyimleyin
+    </h2>
+    <p class="text-lg text-gray-700 max-w-2xl mx-auto mb-10">
+      Eduport'un sunduğu akıllı araçlar, kişiselleştirilmiş içerikler ve
+      etkileşimli çözümlerle akademik dünyada fark yaratın.
+    </p>
+    <button
+      class="bg-[#9059E3] hover:bg-[#7a42d1] text-white px-8 py-4 rounded-full font-medium text-lg transition-transform duration-300 transform hover:scale-105 shadow-md"
+    >
+      Keşfet →
+    </button>
+  </div>
+ 
+</div>
+
+    <!-- Scroll Animasyon Script -->
+    <script>
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 100) {
+          leftImage.style.opacity = "1";
+          leftImage.style.transform = "translateX(-120px)";
+          rightImage.style.opacity = "1";
+          rightImage.style.transform = "translateX(290px)";
+        } else {
+          leftImage.style.opacity = "0";
+          leftImage.style.transform = "translateX(-100%)";
+          rightImage.style.opacity = "0";
+          rightImage.style.transform = "translateX(100%)";
+        }
+      });
+    </script>
   </body>
 </html>
